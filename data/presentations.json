@@ -943,6 +943,75 @@
           "joinedAt": "2026-02-15T20:53:35.189Z"
         }
       ]
+    },
+    {
+      "code": "QJPXTL",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T21:26:43.108Z",
+      "expiresAt": "2026-02-16T05:26:43.108Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/QJPXTL/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "CFAJAM",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T21:27:33.119Z",
+      "expiresAt": "2026-02-16T05:27:33.119Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/CFAJAM/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Koko",
+          "joinedAt": "2026-02-15T21:27:42.780Z"
+        }
+      ]
+    },
+    {
+      "code": "YEN8FE",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T21:28:47.300Z",
+      "expiresAt": "2026-02-16T05:28:47.300Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/YEN8FE/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Koko",
+          "joinedAt": "2026-02-15T21:29:23.861Z"
+        }
+      ]
+    },
+    {
+      "code": "74W682",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T21:31:13.925Z",
+      "expiresAt": "2026-02-16T05:31:13.925Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 5,
+      "slidesPath": "/uploads/74W682/slides/",
+      "presentationFile": "74W682/Field Service Management System for a Security Solutions Company.pdf",
+      "connectedAudience": [
+        {
+          "name": "Koko",
+          "joinedAt": "2026-02-15T21:31:26.974Z"
+        }
+      ],
+      "uploadedFileName": "Field Service Management System for a Security Solutions Company.pdf",
+      "fileType": "application/pdf"
     }
   ]
 }
