@@ -12,7 +12,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  serverExternalPackages: ["canvas"],
+  serverExternalPackages: ["canvas", "pdfjs-dist"],
   turbopack: {
     root: __dirname,
   },
