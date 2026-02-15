@@ -501,6 +501,24 @@
           "joinedAt": "2026-02-15T19:20:30.767Z"
         }
       ]
+    },
+    {
+      "code": "XC64YB",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:21:00.762Z",
+      "expiresAt": "2026-02-16T04:21:00.762Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/XC64YB/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Koko",
+          "joinedAt": "2026-02-15T20:21:15.208Z"
+        }
+      ]
     }
   ]
 }
