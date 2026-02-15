@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
         expiresAt: expiresAt.toISOString(),
       },
     });
-  } catch (error) {
-    return NextResponse.json({ success: false, error: 'Failed to create presentation' }, { status: 500 });
+  } catch (err) {
+    return NextResponse.json({ success: false, error: 'Failed to create presentation, ', err }, { status: 500 });
   }
 }

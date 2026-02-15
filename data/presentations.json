@@ -943,6 +943,32 @@
           "joinedAt": "2026-02-15T20:53:35.189Z"
         }
       ]
+    },
+    {
+      "code": "T7PWHH",
+      "presenterName": "7ygu",
+      "createdAt": "2026-02-15T22:33:56.780Z",
+      "expiresAt": "2026-02-16T06:33:56.780Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/T7PWHH/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "XBCEDU",
+      "presenterName": "gy",
+      "createdAt": "2026-02-15T22:35:47.150Z",
+      "expiresAt": "2026-02-16T06:35:47.150Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/XBCEDU/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
     }
   ]
 }
