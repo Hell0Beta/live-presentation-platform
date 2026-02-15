@@ -34,7 +34,7 @@ export default function AudiencePage() {
       const response = await fetch(`/api/presentation/${presentationCode}/join`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ audienceName: userName }),
+        body: JSON.stringify({ name: userName }),
       });
 
       const result = await response.json();

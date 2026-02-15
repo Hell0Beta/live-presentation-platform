@@ -25,6 +25,7 @@ export async function GET(
         type: presentation.type,
         totalSlides: presentation.totalSlides,
         presenterName: presentation.presenterName,
+        connectedAudience: presentation.connectedAudience || [],
       },
     });
   } catch (error) {

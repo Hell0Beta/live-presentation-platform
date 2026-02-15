@@ -501,6 +501,448 @@
           "joinedAt": "2026-02-15T19:20:30.767Z"
         }
       ]
+    },
+    {
+      "code": "5334WM",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:31:40.678Z",
+      "expiresAt": "2026-02-16T03:31:40.678Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/5334WM/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:32:12.229Z"
+        }
+      ]
+    },
+    {
+      "code": "85BJ4B",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:35:53.544Z",
+      "expiresAt": "2026-02-16T03:35:53.544Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/85BJ4B/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:36:07.494Z"
+        },
+        {
+          "name": "Your name",
+          "joinedAt": "2026-02-15T19:37:37.452Z"
+        },
+        {
+          "name": "Your name",
+          "joinedAt": "2026-02-15T19:38:30.681Z"
+        },
+        {
+          "name": "Jude",
+          "joinedAt": "2026-02-15T19:40:01.281Z"
+        }
+      ]
+    },
+    {
+      "code": "LDWTXS",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:43:10.606Z",
+      "expiresAt": "2026-02-16T03:43:10.606Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/LDWTXS/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T19:43:43.332Z"
+        },
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T19:44:26.722Z"
+        }
+      ]
+    },
+    {
+      "code": "WZCNPU",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:47:34.657Z",
+      "expiresAt": "2026-02-16T03:47:34.657Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/WZCNPU/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T19:47:52.762Z"
+        },
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T19:48:49.057Z"
+        },
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T19:49:43.311Z"
+        }
+      ]
+    },
+    {
+      "code": "3KTY87",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:52:45.415Z",
+      "expiresAt": "2026-02-16T03:52:45.415Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/3KTY87/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T19:53:19.999Z"
+        },
+        {
+          "name": "Peter",
+          "joinedAt": "2026-02-15T19:54:40.036Z"
+        }
+      ]
+    },
+    {
+      "code": "J9VWPP",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:58:47.646Z",
+      "expiresAt": "2026-02-16T03:58:47.646Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/J9VWPP/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:59:06.599Z"
+        }
+      ]
+    },
+    {
+      "code": "HDZTTJ",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:03:57.420Z",
+      "expiresAt": "2026-02-16T04:03:57.420Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/HDZTTJ/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T20:04:16.976Z"
+        }
+      ]
+    },
+    {
+      "code": "LTVAGV",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:05:13.728Z",
+      "expiresAt": "2026-02-16T04:05:13.728Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/LTVAGV/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T20:05:24.290Z"
+        }
+      ]
+    },
+    {
+      "code": "5UHWKB",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:08:12.832Z",
+      "expiresAt": "2026-02-16T04:08:12.832Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/5UHWKB/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T20:08:29.841Z"
+        }
+      ]
+    },
+    {
+      "code": "L3G6YF",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:10:50.122Z",
+      "expiresAt": "2026-02-16T04:10:50.122Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/L3G6YF/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T20:11:06.919Z"
+        },
+        {
+          "name": "peter",
+          "joinedAt": "2026-02-15T20:11:54.208Z"
+        },
+        {
+          "name": "peter",
+          "joinedAt": "2026-02-15T20:12:05.474Z"
+        }
+      ]
+    },
+    {
+      "code": "NRYFT6",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T20:11:35.858Z",
+      "expiresAt": "2026-02-16T04:11:35.858Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/NRYFT6/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "6TP5QR",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:14:48.257Z",
+      "expiresAt": "2026-02-16T04:14:48.257Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 5,
+      "slidesPath": "/uploads/6TP5QR/slides/",
+      "presentationFile": "6TP5QR/Field Service Management System for a Security Solutions Company.pdf",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T20:15:16.579Z"
+        }
+      ],
+      "uploadedFileName": "Field Service Management System for a Security Solutions Company.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "QDMDUZ",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:17:33.691Z",
+      "expiresAt": "2026-02-16T04:17:33.691Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/QDMDUZ/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T20:17:41.602Z"
+        }
+      ]
+    },
+    {
+      "code": "G9GBM8",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:23:35.472Z",
+      "expiresAt": "2026-02-16T04:23:35.472Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/G9GBM8/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Koko",
+          "joinedAt": "2026-02-15T20:23:48.295Z"
+        },
+        {
+          "name": "Koko",
+          "joinedAt": "2026-02-15T20:24:47.576Z"
+        }
+      ]
+    },
+    {
+      "code": "Y3XJ7Z",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:30:26.741Z",
+      "expiresAt": "2026-02-16T04:30:26.741Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/Y3XJ7Z/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "PHZEYJ",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:33:04.585Z",
+      "expiresAt": "2026-02-16T04:33:04.585Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/PHZEYJ/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Joko",
+          "joinedAt": "2026-02-15T20:33:19.126Z"
+        }
+      ]
+    },
+    {
+      "code": "M9795R",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T20:35:12.311Z",
+      "expiresAt": "2026-02-16T04:35:12.311Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/M9795R/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "29JZFM",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T20:35:23.457Z",
+      "expiresAt": "2026-02-16T04:35:23.457Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/29JZFM/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "T7UBWG",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T20:35:23.523Z",
+      "expiresAt": "2026-02-16T04:35:23.523Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 2,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/T7UBWG/slides/",
+      "presentationFile": "T7UBWG/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "Joko",
+          "joinedAt": "2026-02-15T20:35:34.078Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "BD6H2N",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T20:37:41.614Z",
+      "expiresAt": "2026-02-16T04:37:41.614Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 8,
+      "totalSlides": 63,
+      "slidesPath": "/uploads/BD6H2N/slides/",
+      "presentationFile": "BD6H2N/[External] Build with AI 2026 Brand Guide - goo.gle_bwai-2026-brand-guide.pdf",
+      "connectedAudience": [
+        {
+          "name": "Joko",
+          "joinedAt": "2026-02-15T20:38:02.388Z"
+        }
+      ],
+      "uploadedFileName": "[External] Build with AI 2026 Brand Guide - goo.gle_bwai-2026-brand-guide.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "M39XRR",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T20:39:38.004Z",
+      "expiresAt": "2026-02-16T04:39:38.004Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/M39XRR/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Joko",
+          "joinedAt": "2026-02-15T20:39:46.696Z"
+        }
+      ]
+    },
+    {
+      "code": "K8HMND",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T20:50:27.193Z",
+      "expiresAt": "2026-02-16T04:50:27.193Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/K8HMND/slides/",
+      "presentationFile": "K8HMND/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "Joko",
+          "joinedAt": "2026-02-15T20:50:37.482Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "3URQCT",
+      "presenterName": "dfdf",
+      "createdAt": "2026-02-15T20:53:25.696Z",
+      "expiresAt": "2026-02-16T04:53:25.696Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/3URQCT/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Joko",
+          "joinedAt": "2026-02-15T20:53:35.189Z"
+        }
+      ]
     }
   ]
 }
