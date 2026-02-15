@@ -1,0 +1,506 @@
+{
+  "presentations": [
+    {
+      "code": "M94JSR",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T13:13:00.023Z",
+      "expiresAt": "2026-02-05T21:13:00.023Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/M94JSR/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "RCJ8D4",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T13:13:01.459Z",
+      "expiresAt": "2026-02-05T21:13:01.459Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 2,
+      "totalSlides": 18,
+      "slidesPath": "/uploads/RCJ8D4/slides/",
+      "presentationFile": "RCJ8D4/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "micro",
+          "joinedAt": "2026-02-05T13:13:24.093Z"
+        },
+        {
+          "name": "v",
+          "joinedAt": "2026-02-05T13:17:58.275Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "pdf"
+    },
+    {
+      "code": "QKGUCY",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T13:23:30.845Z",
+      "expiresAt": "2026-02-05T21:23:30.845Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 3,
+      "totalSlides": 18,
+      "slidesPath": "/uploads/QKGUCY/slides/",
+      "presentationFile": "QKGUCY/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "v",
+          "joinedAt": "2026-02-05T13:23:55.647Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "pdf"
+    },
+    {
+      "code": "WMMX4H",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T15:11:42.803Z",
+      "expiresAt": "2026-02-05T23:11:42.803Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/WMMX4H/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "QKCJG4",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T15:14:15.456Z",
+      "expiresAt": "2026-02-05T23:14:15.456Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/QKCJG4/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "MG55DQ",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T15:15:51.605Z",
+      "expiresAt": "2026-02-05T23:15:51.605Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/MG55DQ/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "JNCTGJ",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T15:23:08.137Z",
+      "expiresAt": "2026-02-05T23:23:08.137Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/JNCTGJ/slides/",
+      "presentationFile": "JNCTGJ/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "pdf"
+    },
+    {
+      "code": "SC7K8T",
+      "presenterName": "go",
+      "createdAt": "2026-02-05T15:35:12.464Z",
+      "expiresAt": "2026-02-05T23:35:12.464Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/SC7K8T/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "27G3DG",
+      "presenterName": "ds",
+      "createdAt": "2026-02-05T15:40:17.988Z",
+      "expiresAt": "2026-02-05T23:40:17.988Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/27G3DG/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "TPVBQZ",
+      "presenterName": "ds",
+      "createdAt": "2026-02-05T15:40:18.011Z",
+      "expiresAt": "2026-02-05T23:40:18.011Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/TPVBQZ/slides/",
+      "presentationFile": "TPVBQZ/UBaS lesson 1.pdf",
+      "connectedAudience": [
+        {
+          "name": "fd",
+          "joinedAt": "2026-02-05T15:40:30.469Z"
+        }
+      ],
+      "uploadedFileName": "UBaS lesson 1.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "E38MF3",
+      "presenterName": "fdh",
+      "createdAt": "2026-02-05T16:03:36.254Z",
+      "expiresAt": "2026-02-06T00:03:36.254Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/E38MF3/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "5Z6BGC",
+      "presenterName": "fdh",
+      "createdAt": "2026-02-05T16:03:36.275Z",
+      "expiresAt": "2026-02-06T00:03:36.275Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/5Z6BGC/slides/",
+      "presentationFile": "5Z6BGC/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "FGUWW9",
+      "presenterName": "fds",
+      "createdAt": "2026-02-05T16:21:51.299Z",
+      "expiresAt": "2026-02-06T00:21:51.299Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/FGUWW9/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "B76LJR",
+      "presenterName": "fds",
+      "createdAt": "2026-02-05T16:21:51.324Z",
+      "expiresAt": "2026-02-06T00:21:51.324Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/B76LJR/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "BVF5Q3",
+      "presenterName": "fv",
+      "createdAt": "2026-02-05T16:43:31.156Z",
+      "expiresAt": "2026-02-06T00:43:31.156Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/BVF5Q3/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "H78GH2",
+      "presenterName": "fv",
+      "createdAt": "2026-02-05T16:43:31.184Z",
+      "expiresAt": "2026-02-06T00:43:31.184Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/H78GH2/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "ULCHER",
+      "presenterName": "fv",
+      "createdAt": "2026-02-05T16:45:52.451Z",
+      "expiresAt": "2026-02-06T00:45:52.451Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/ULCHER/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "GCVLTZ",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:13:56.506Z",
+      "expiresAt": "2026-02-16T02:13:56.506Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/GCVLTZ/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "VEAQ7Q",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:13:56.548Z",
+      "expiresAt": "2026-02-16T02:13:56.548Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/VEAQ7Q/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "lp",
+          "joinedAt": "2026-02-15T18:14:06.945Z"
+        }
+      ]
+    },
+    {
+      "code": "2GWAR4",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:25:42.171Z",
+      "expiresAt": "2026-02-16T02:25:42.171Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/2GWAR4/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "JZ2WGX",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:27:28.311Z",
+      "expiresAt": "2026-02-16T02:27:28.311Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/JZ2WGX/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "AJTLQL",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:35:23.509Z",
+      "expiresAt": "2026-02-16T02:35:23.509Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/AJTLQL/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "QL77P4",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:35:30.990Z",
+      "expiresAt": "2026-02-16T02:35:30.990Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/QL77P4/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "RQ25P7",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:40:42.098Z",
+      "expiresAt": "2026-02-16T02:40:42.098Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/RQ25P7/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "CRP3K4",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:40:47.832Z",
+      "expiresAt": "2026-02-16T02:40:47.832Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 1,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/CRP3K4/slides/",
+      "presentationFile": "CRP3K4/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "lp",
+          "joinedAt": "2026-02-15T18:41:24.190Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "29ERLE",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:50:48.342Z",
+      "expiresAt": "2026-02-16T02:50:48.342Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 1,
+      "totalSlides": 5,
+      "slidesPath": "/uploads/29ERLE/slides/",
+      "presentationFile": "29ERLE/UBaS lesson 1.pdf",
+      "connectedAudience": [
+        {
+          "name": "lp",
+          "joinedAt": "2026-02-15T18:50:57.420Z"
+        }
+      ],
+      "uploadedFileName": "UBaS lesson 1.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "UTTBPP",
+      "presenterName": "pl",
+      "createdAt": "2026-02-15T18:54:43.440Z",
+      "expiresAt": "2026-02-16T02:54:43.440Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/UTTBPP/slides/",
+      "presentationFile": "UTTBPP/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "lp",
+          "joinedAt": "2026-02-15T18:54:54.922Z"
+        },
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T18:57:23.704Z"
+        },
+        {
+          "name": "John",
+          "joinedAt": "2026-02-15T18:59:14.816Z"
+        },
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:00:21.592Z"
+        },
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:00:28.579Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "VUTJJ8",
+      "presenterName": "fv",
+      "createdAt": "2026-02-15T18:56:02.835Z",
+      "expiresAt": "2026-02-16T02:56:02.835Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/VUTJJ8/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "ANGDDL",
+      "presenterName": "fv",
+      "createdAt": "2026-02-15T19:11:44.705Z",
+      "expiresAt": "2026-02-16T03:11:44.705Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 6,
+      "slidesPath": "/uploads/ANGDDL/slides/",
+      "presentationFile": "ANGDDL/1st.pdf",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:11:54.195Z"
+        },
+        {
+          "name": "lp",
+          "joinedAt": "2026-02-15T19:12:50.284Z"
+        },
+        {
+          "name": "koko",
+          "joinedAt": "2026-02-15T19:14:32.886Z"
+        },
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:15:35.173Z"
+        },
+        {
+          "name": "your name",
+          "joinedAt": "2026-02-15T19:15:39.306Z"
+        }
+      ],
+      "uploadedFileName": "1st.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "R4N9MC",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:19:30.075Z",
+      "expiresAt": "2026-02-16T03:19:30.075Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/R4N9MC/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "DHB67A",
+      "presenterName": "john",
+      "createdAt": "2026-02-15T19:19:30.099Z",
+      "expiresAt": "2026-02-16T03:19:30.099Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/DHB67A/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "James",
+          "joinedAt": "2026-02-15T19:20:30.767Z"
+        }
+      ]
+    }
+  ]
+}

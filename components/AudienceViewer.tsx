@@ -1,0 +1,110 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { LogOut } from 'lucide-react';
+
+interface AudienceViewerProps {
+  code: string;
+  userName: string;
+  presenterName: string;
+  onLogout: () => void;
+}
+
+interface SlideData {
+  currentSlide: number;
+  slideUrl: string | null;
+  totalSlides: number;
+  type: 'presentation' | 'screenshare';
+}
+
+export function AudienceViewer({ code, userName, presenterName, onLogout }: AudienceViewerProps) {
+  const [slide, setSlide] = useState<SlideData>({
+    currentSlide: 0,
+    slideUrl: null,
+    totalSlides: 0,
+    type: 'presentation',
+  });
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchSlide = async () => {
+      try {
+        const response = await fetch(`/api/presentation/${code}/current`);
+        const result = await response.json();
+
+        if (result.success) {
+          setSlide(result.data);
+        }
+      } catch (err) {
+        console.error('Failed to fetch slide:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    // Fetch immediately
+    fetchSlide();
+
+    // Set up polling every 2 seconds
+    const interval = setInterval(fetchSlide, 2000);
+
+    return () => clearInterval(interval);
+  }, [code]);
+
+  return (
+    <div className="flex flex-col h-screen bg-background">
+      {/* Top Bar */}
+      <div className="bg-card border-b border-border px-8 py-4 flex items-center justify-between flex-shrink-0">
+        <div className="flex items-center gap-4">
+          <h1 className="text-lg font-semibold text-foreground">Live Presentation Platform</h1>
+          <div className="hidden sm:flex items-center gap-2 text-sm text-muted-foreground">
+            <span>•</span>
+            <span>Presented by {presenterName}</span>
+          </div>
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 rounded-full bg-success" />
+            <span className="text-xs font-medium text-foreground">Live</span>
+          </div>
+          <Button onClick={onLogout} variant="ghost" size="sm" className="h-8 px-3 text-muted-foreground hover:text-foreground">
+            <LogOut className="w-4 h-4 mr-2" />
+            Exit
+          </Button>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="flex-1 overflow-hidden flex items-center justify-center bg-black">
+        {slide.slideUrl ? (
+          <img
+            src={slide.slideUrl || "/placeholder.svg"}
+            alt={`Slide ${slide.currentSlide + 1}`}
+            className="w-full h-full object-contain"
+          />
+        ) : (
+          <div className="text-center text-muted-foreground">
+            <p className="text-lg font-medium mb-2">Waiting for presentation to start...</p>
+            <p className="text-sm">Slides will appear when the presenter shares them</p>
+          </div>
+        )}
+      </div>
+
+      {/* Footer Bar */}
+      <div className="bg-card border-t border-border px-8 py-4 flex items-center justify-between text-sm flex-shrink-0">
+        <div className="text-muted-foreground">
+          <span className="font-medium text-foreground">{userName}</span>
+          <span className="mx-2">•</span>
+          Code: <span className="font-mono font-semibold text-primary">{code}</span>
+        </div>
+        <div className="text-muted-foreground">
+          Slide <span className="font-semibold text-foreground">{slide.currentSlide + 1}</span> of{' '}
+          <span className="font-semibold text-foreground">{slide.totalSlides || '—'}</span>
+          {loading && <span className="ml-3 inline-block">↻ syncing...</span>}
+        </div>
+      </div>
+    </div>
+  );
+}
