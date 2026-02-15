@@ -43,7 +43,7 @@ export function updatePresentation(code: string, updates: Partial<Presentation>)
   const data = loadPresentations();
   const presentation = data.presentations.find((p) => p.code === code);
   if (!presentation) return null;
-  
+
   Object.assign(presentation, updates);
   savePresentations(data);
   return presentation;
@@ -79,4 +79,25 @@ export function cleanupExpiredSessions() {
     return expiresAt > now;
   });
   savePresentations(data);
+}
+
+export function addAudienceMember(code: string, name: string) {
+  const data = loadPresentations();
+  const presentation = data.presentations.find((p) => p.code === code);
+
+  if (presentation) {
+    if (!presentation.connectedAudience) {
+      presentation.connectedAudience = [];
+    }
+
+    // Check if already exists to avoid duplicates (or update joinedAt)
+    const existingMember = presentation.connectedAudience.find(m => m.name === name);
+    if (!existingMember) {
+      presentation.connectedAudience.push({
+        name,
+        joinedAt: new Date().toISOString()
+      });
+      savePresentations(data);
+    }
+  }
 }
