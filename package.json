@@ -80,6 +80,11 @@
   "pnpm": {
     "overrides": {
       "canvas": "3.2.1"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "canvas",
+      "pdfjs-dist",
+      "sharp"
+    ]
   }
 }
