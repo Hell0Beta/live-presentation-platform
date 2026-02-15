@@ -184,7 +184,23 @@ export function AudienceViewer({ code, userName, presenterName, onLogout }: Audi
       clearInterval(interval);
       cleanup();
     };
-  }, [code, cleanup, userName]); // Added userName dependency
+  }, [code, cleanup, userName]);
+
+  // Join the presentation
+  useEffect(() => {
+    const joinPresentation = async () => {
+      try {
+        await fetch(`/api/presentation/${code}/join`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: userName }),
+        });
+      } catch (err) {
+        console.error('Failed to join:', err);
+      }
+    };
+    joinPresentation();
+  }, [code, userName]);
 
   return (
     <div className="flex flex-col h-screen bg-background">

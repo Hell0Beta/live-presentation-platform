@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getPresentation, updatePresentation } from '@/lib/dataStore';
+import { addAudienceMember, getPresentation } from '@/lib/dataStore';
 
 export async function POST(
   request: NextRequest,
@@ -7,41 +7,27 @@ export async function POST(
 ) {
   try {
     const { code } = await params;
-    const { audienceName } = await request.json();
+    const { name } = await request.json();
 
-    if (!audienceName) {
-      return NextResponse.json({ success: false, error: 'Audience name is required' }, { status: 400 });
+    if (!name) {
+      return NextResponse.json({ success: false, error: 'Name is required' }, { status: 400 });
     }
 
+    addAudienceMember(code, name);
     const presentation = getPresentation(code);
+
     if (!presentation) {
       return NextResponse.json({ success: false, error: 'Presentation not found' }, { status: 404 });
     }
 
-    if (presentation.status !== 'active') {
-      return NextResponse.json({ success: false, error: 'Presentation is not active' }, { status: 400 });
-    }
-
-    // Add audience member
-    const newAudience = {
-      name: audienceName,
-      joinedAt: new Date().toISOString(),
-    };
-
-    const updated = updatePresentation(code, {
-      connectedAudience: [...presentation.connectedAudience, newAudience],
-    });
-
     return NextResponse.json({
       success: true,
       data: {
-        presenterName: presentation.presenterName,
-        currentSlide: presentation.currentSlide,
-        totalSlides: presentation.totalSlides,
-        type: presentation.type,
-      },
+        presenterName: presentation.presenterName
+      }
     });
   } catch (error) {
-    return NextResponse.json({ success: false, error: 'Failed to join presentation' }, { status: 500 });
+    console.error('Failed to join presentation:', error);
+    return NextResponse.json({ success: false, error: 'Failed' }, { status: 500 });
   }
 }

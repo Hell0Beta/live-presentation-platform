@@ -84,10 +84,11 @@ export default function PresenterPage() {
         setPresentation((prev) =>
           prev
             ? {
-                ...prev,
-                currentSlide: result.data.currentSlide,
-                totalSlides: result.data.totalSlides,
-              }
+              ...prev,
+              currentSlide: result.data.currentSlide,
+              totalSlides: result.data.totalSlides,
+              connectedAudience: result.data.connectedAudience,
+            }
             : null
         );
       }
@@ -116,9 +117,9 @@ export default function PresenterPage() {
         setPresentation((prev) =>
           prev
             ? {
-                ...prev,
-                currentSlide: result.data.currentSlide,
-              }
+              ...prev,
+              currentSlide: result.data.currentSlide,
+            }
             : null
         );
       }
@@ -146,12 +147,12 @@ export default function PresenterPage() {
         setPresentation((prev) =>
           prev
             ? {
-                ...prev,
-                totalSlides: result.data.slideCount,
-                currentSlide: 0,
-                uploadedFileName: result.data.fileName,
-                fileType: result.data.fileType,
-              }
+              ...prev,
+              totalSlides: result.data.slideCount,
+              currentSlide: 0,
+              uploadedFileName: result.data.fileName,
+              fileType: result.data.fileType,
+            }
             : null
         );
       }
