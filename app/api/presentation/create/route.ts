@@ -12,7 +12,8 @@ export async function POST(request: NextRequest) {
     if (!presenterName || !sessionId) {
       return NextResponse.json({ success: false, error: 'Presenter name and session ID are required' }, { status: 400 });
     }
-
+    console.log("presenterName", presenterName)
+    console.log("sessionId", sessionId)
     const code = generatePresentationCode();
     const now = new Date();
     const expiresAt = new Date(now.getTime() + 8 * 60 * 60 * 1000); // 8 hours
@@ -32,7 +33,7 @@ export async function POST(request: NextRequest) {
     };
 
     addPresentation(presentation);
-
+    console.log("presentation, created", presentation)
     return NextResponse.json({
       success: true,
       data: {
