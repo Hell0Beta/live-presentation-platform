@@ -39,7 +39,12 @@ export async function POST(request: NextRequest) {
       connectedAudience: [],
     };
 
-    addPresentation(presentation);
+    try {
+      addPresentation(presentation);
+    } catch (error) {
+      console.error('Failed to add presentation:', error);
+    }
+
     console.log("presentation, created", presentation)
     return NextResponse.json({
       success: true,
