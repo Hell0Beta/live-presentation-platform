@@ -3,7 +3,13 @@ import { addPresentation, initializeDataStore } from '@/lib/dataStore';
 import { generatePresentationCode } from '@/lib/codeGenerator';
 
 // Initialize on first request
-initializeDataStore();
+
+try {
+  initializeDataStore();
+} catch (error) {
+  console.error('Failed to initialize data store:', error);
+}
+
 
 export async function POST(request: NextRequest) {
   try {
