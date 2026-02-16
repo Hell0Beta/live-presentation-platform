@@ -21,6 +21,7 @@ export async function POST(request: NextRequest) {
     console.log("presenterName", presenterName)
     console.log("sessionId", sessionId)
     const code = generatePresentationCode();
+    console.log("code", code)
     const now = new Date();
     const expiresAt = new Date(now.getTime() + 8 * 60 * 60 * 1000); // 8 hours
 
