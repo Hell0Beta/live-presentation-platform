@@ -969,6 +969,85 @@
       "slidesPath": "/uploads/XBCEDU/slides/",
       "presentationFile": "",
       "connectedAudience": []
+    },
+    {
+      "code": "CHFFWC",
+      "presenterName": "fd",
+      "createdAt": "2026-02-17T15:19:05.970Z",
+      "expiresAt": "2026-02-17T23:19:05.970Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/CHFFWC/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "TZPDE2",
+      "presenterName": "fd",
+      "createdAt": "2026-02-17T15:19:06.144Z",
+      "expiresAt": "2026-02-17T23:19:06.144Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/TZPDE2/slides/",
+      "presentationFile": "TZPDE2/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "U34MLE",
+      "presenterName": "eteyt",
+      "createdAt": "2026-02-17T15:36:05.402Z",
+      "expiresAt": "2026-02-17T23:36:05.402Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/U34MLE/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "EB5V7V",
+      "presenterName": "eteyt",
+      "createdAt": "2026-02-17T15:36:05.501Z",
+      "expiresAt": "2026-02-17T23:36:05.501Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/EB5V7V/slides/",
+      "presentationFile": "EB5V7V/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "Ndn",
+          "joinedAt": "2026-02-17T15:36:16.621Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "PWVPG4",
+      "presenterName": "eteyt",
+      "createdAt": "2026-02-17T15:36:55.693Z",
+      "expiresAt": "2026-02-17T23:36:55.693Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/PWVPG4/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Ndn",
+          "joinedAt": "2026-02-17T15:37:35.287Z"
+        }
+      ]
     }
   ]
 }
