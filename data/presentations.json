@@ -1152,6 +1152,34 @@
       "connectedAudience": [],
       "uploadedFileName": "UBaS lesson 1.pdf",
       "fileType": "application/pdf"
+    },
+    {
+      "code": "P7C6N9",
+      "presenterName": "fg",
+      "createdAt": "2026-02-18T15:12:25.323Z",
+      "expiresAt": "2026-02-18T23:12:25.323Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/P7C6N9/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "K25LHT",
+      "presenterName": "fg",
+      "createdAt": "2026-02-18T15:15:08.125Z",
+      "expiresAt": "2026-02-18T23:15:08.125Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/K25LHT/slides/",
+      "presentationFile": "K25LHT/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
     }
   ]
 }

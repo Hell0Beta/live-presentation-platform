@@ -46,6 +46,9 @@ export async function processUploadedFile(
     // Convert Buffer to Uint8Array (this is the fix!)
     const pdfData = new Uint8Array(pdfBuffer);
 
+    // Find the pdfjs-dist directory reliably in Node/Next.js
+    const pdfjsDistPath = path.join(process.cwd(), 'node_modules', 'pdfjs-dist');
+
     const loadingTask = pdfjsLib.getDocument({
       data: pdfData,
       verbosity: 0,
@@ -56,9 +59,9 @@ export async function processUploadedFile(
       // @ts-ignore
       nativeImageDecoderSupport: 'none',
       // Ensure fonts render correctly on Linux
-      cMapUrl: path.join(path.dirname(require.resolve('pdfjs-dist/package.json')), 'cmaps/'),
+      cMapUrl: path.join(pdfjsDistPath, 'cmaps/'),
       cMapPacked: true,
-      standardFontDataUrl: path.join(path.dirname(require.resolve('pdfjs-dist/package.json')), 'standard_fonts/')
+      standardFontDataUrl: path.join(pdfjsDistPath, 'standard_fonts/')
     });
     const pdfDocument = await loadingTask.promise;
 
