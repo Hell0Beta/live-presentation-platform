@@ -1081,6 +1081,21 @@
       ],
       "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
       "fileType": "application/pdf"
+    },
+    {
+      "code": "XTVLEB",
+      "presenterName": "fd",
+      "createdAt": "2026-02-18T11:17:01.897Z",
+      "expiresAt": "2026-02-18T19:17:01.897Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/XTVLEB/slides/",
+      "presentationFile": "XTVLEB/Templatae.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "Templatae.pdf",
+      "fileType": "application/pdf"
     }
   ]
 }

@@ -66,12 +66,15 @@ export async function processUploadedFile(
       create(width: number, height: number) {
         const canvas = createCanvas(width, height);
         const context = canvas.getContext('2d');
+        context.fillStyle = 'white';
+        context.fillRect(0, 0, width, height);
         return {
           canvas,
           context,
           width,
           height
         };
+
       }
 
       reset(canvasAndContext: any, width: number, height: number) {
