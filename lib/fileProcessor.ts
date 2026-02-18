@@ -54,7 +54,11 @@ export async function processUploadedFile(
       // @ts-ignore
       stopAtErrors: true,
       // @ts-ignore
-      nativeImageDecoderSupport: 'none'
+      nativeImageDecoderSupport: 'none',
+      // Ensure fonts render correctly on Linux
+      cMapUrl: path.join(path.dirname(require.resolve('pdfjs-dist/package.json')), 'cmaps/'),
+      cMapPacked: true,
+      standardFontDataUrl: path.join(path.dirname(require.resolve('pdfjs-dist/package.json')), 'standard_fonts/')
     });
     const pdfDocument = await loadingTask.promise;
 
@@ -82,6 +86,11 @@ export async function processUploadedFile(
         canvasAndContext.canvas.height = height;
         canvasAndContext.width = width;
         canvasAndContext.height = height;
+
+        // RE-FILL with white after the resize clears the canvas
+        const ctx = canvasAndContext.context;
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, width, height);
       }
 
       destroy(canvasAndContext: any) {
@@ -121,6 +130,7 @@ export async function processUploadedFile(
         viewport: viewport,
         // @ts-ignore
         canvasFactory: canvasFactory as any, // Tell PDF.js to use our factory
+        intent: 'print' // Better rendering for some PDFs
       }).promise;
 
       // Save as PNG
