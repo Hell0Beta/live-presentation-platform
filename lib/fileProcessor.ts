@@ -4,9 +4,10 @@ import path from 'path';
 import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
 import { createCanvas } from 'canvas';
 
-// Set up PDF.js worker
-const pdfjsWorker = require('pdfjs-dist/legacy/build/pdf.worker.entry');
-pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+// Set up PDF.js worker - Disable for Node.js to ensure object identity
+pdfjsLib.GlobalWorkerOptions.workerSrc = '';
+// @ts-ignore
+pdfjsLib.GlobalWorkerOptions.workerDisabled = true;
 
 export interface ProcessedFile {
   slideCount: number;
@@ -47,7 +48,13 @@ export async function processUploadedFile(
 
     const loadingTask = pdfjsLib.getDocument({
       data: pdfData,
-      verbosity: 0
+      verbosity: 0,
+      // @ts-ignore
+      disableWorker: true,
+      // @ts-ignore
+      stopAtErrors: true,
+      // @ts-ignore
+      nativeImageDecoderSupport: 'none'
     });
     const pdfDocument = await loadingTask.promise;
 
@@ -62,12 +69,16 @@ export async function processUploadedFile(
         return {
           canvas,
           context,
+          width,
+          height
         };
       }
 
       reset(canvasAndContext: any, width: number, height: number) {
         canvasAndContext.canvas.width = width;
         canvasAndContext.canvas.height = height;
+        canvasAndContext.width = width;
+        canvasAndContext.height = height;
       }
 
       destroy(canvasAndContext: any) {
@@ -75,6 +86,16 @@ export async function processUploadedFile(
         canvasAndContext.canvas.height = 0;
         canvasAndContext.canvas = null;
         canvasAndContext.context = null;
+      }
+
+      createImage() {
+        // @ts-ignore
+        return new (require('canvas').Image)();
+      }
+
+      createImageData(data: Uint8ClampedArray, width: number, height: number) {
+        // @ts-ignore
+        return new (require('canvas').ImageData)(data, width, height);
       }
     }
 
@@ -95,6 +116,7 @@ export async function processUploadedFile(
       await page.render({
         canvasContext: canvasAndContext.context as any,
         viewport: viewport,
+        // @ts-ignore
         canvasFactory: canvasFactory as any, // Tell PDF.js to use our factory
       }).promise;
 

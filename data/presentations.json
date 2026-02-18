@@ -1048,6 +1048,39 @@
           "joinedAt": "2026-02-17T15:37:35.287Z"
         }
       ]
+    },
+    {
+      "code": "TCBL56",
+      "presenterName": "fd",
+      "createdAt": "2026-02-18T10:34:40.515Z",
+      "expiresAt": "2026-02-18T18:34:40.515Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/TCBL56/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "WFZKD6",
+      "presenterName": "fd",
+      "createdAt": "2026-02-18T10:34:40.781Z",
+      "expiresAt": "2026-02-18T18:34:40.781Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 7,
+      "slidesPath": "/uploads/WFZKD6/slides/",
+      "presentationFile": "WFZKD6/8-Week Web Development Lesson Plan.pdf",
+      "connectedAudience": [
+        {
+          "name": "h",
+          "joinedAt": "2026-02-18T10:35:53.425Z"
+        }
+      ],
+      "uploadedFileName": "8-Week Web Development Lesson Plan.pdf",
+      "fileType": "application/pdf"
     }
   ]
 }
