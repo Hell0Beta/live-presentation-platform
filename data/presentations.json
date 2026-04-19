@@ -1048,6 +1048,143 @@
           "joinedAt": "2026-02-17T15:37:35.287Z"
         }
       ]
+    },
+    {
+      "code": "U4EPJ6",
+      "presenterName": "k",
+      "createdAt": "2026-02-18T08:59:11.614Z",
+      "expiresAt": "2026-02-18T16:59:11.614Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/U4EPJ6/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "427FG6",
+      "presenterName": "k",
+      "createdAt": "2026-02-18T08:59:11.678Z",
+      "expiresAt": "2026-02-18T16:59:11.678Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 1,
+      "slidesPath": "/uploads/427FG6/slides/",
+      "presentationFile": "427FG6/Blessing_Laryea [National_ID].pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "Blessing_Laryea [National_ID].pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "N47S2E",
+      "presenterName": "k",
+      "createdAt": "2026-02-18T08:59:59.579Z",
+      "expiresAt": "2026-02-18T16:59:59.579Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 26,
+      "slidesPath": "/uploads/N47S2E/slides/",
+      "presentationFile": "N47S2E/Economics Take Home Assignment.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "Economics Take Home Assignment.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "NEA52N",
+      "presenterName": "Dr James",
+      "createdAt": "2026-02-18T19:56:18.784Z",
+      "expiresAt": "2026-02-19T03:56:18.784Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 3,
+      "totalSlides": 4,
+      "slidesPath": "/uploads/NEA52N/slides/",
+      "presentationFile": "NEA52N/How project managers impact organizations.pdf",
+      "connectedAudience": [
+        {
+          "name": "Tedlee",
+          "joinedAt": "2026-02-18T19:57:31.344Z"
+        }
+      ],
+      "uploadedFileName": "How project managers impact organizations.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "QVUAT6",
+      "presenterName": "Dr James",
+      "createdAt": "2026-02-18T19:58:12.954Z",
+      "expiresAt": "2026-02-19T03:58:12.954Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/QVUAT6/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "VDXECH",
+      "presenterName": "Dr James",
+      "createdAt": "2026-02-18T19:58:17.289Z",
+      "expiresAt": "2026-02-19T03:58:17.289Z",
+      "type": "screenshare",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/VDXECH/slides/",
+      "presentationFile": "",
+      "connectedAudience": [
+        {
+          "name": "Tedlee",
+          "joinedAt": "2026-02-18T19:58:42.973Z"
+        }
+      ]
+    },
+    {
+      "code": "73UUK9",
+      "presenterName": "kjh",
+      "createdAt": "2026-02-19T11:39:39.122Z",
+      "expiresAt": "2026-02-19T19:39:39.122Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 26,
+      "slidesPath": "/uploads/73UUK9/slides/",
+      "presentationFile": "73UUK9/Economics Take Home Assignment.pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "Economics Take Home Assignment.pdf",
+      "fileType": "application/pdf"
+    },
+    {
+      "code": "SYF4UM",
+      "presenterName": "kk",
+      "createdAt": "2026-04-19T06:23:32.195Z",
+      "expiresAt": "2026-04-19T14:23:32.195Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 0,
+      "totalSlides": 0,
+      "slidesPath": "/uploads/SYF4UM/slides/",
+      "presentationFile": "",
+      "connectedAudience": []
+    },
+    {
+      "code": "H4QNGV",
+      "presenterName": "kk",
+      "createdAt": "2026-04-19T06:23:32.308Z",
+      "expiresAt": "2026-04-19T14:23:32.308Z",
+      "type": "presentation",
+      "status": "active",
+      "currentSlide": 1,
+      "totalSlides": 2,
+      "slidesPath": "/uploads/H4QNGV/slides/",
+      "presentationFile": "H4QNGV/AgroSense One Pager - Tedlee Appiah-kubi .pdf",
+      "connectedAudience": [],
+      "uploadedFileName": "AgroSense One Pager - Tedlee Appiah-kubi .pdf",
+      "fileType": "application/pdf"
     }
   ]
 }

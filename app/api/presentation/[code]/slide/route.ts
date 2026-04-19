@@ -40,7 +40,7 @@ export async function GET(
       console.log('[v0] Slide file found:', slideFile);
       return new NextResponse(imageBuffer, {
         headers: {
-          'Content-Type': 'image/png',
+          'Content-Type': 'image/jpeg',
           'Cache-Control': 'public, max-age=3600',
         },
       });
