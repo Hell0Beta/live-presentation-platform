@@ -4,9 +4,10 @@ import path from 'path';
 import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
 import { createCanvas } from 'canvas';
 
-// Set up PDF.js worker
-const pdfjsWorker = require('pdfjs-dist/legacy/build/pdf.worker.entry');
-pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+// Set up PDF.js worker - Disable for Node.js to ensure object identity
+pdfjsLib.GlobalWorkerOptions.workerSrc = '';
+// @ts-ignore
+pdfjsLib.GlobalWorkerOptions.workerDisabled = true;
 
 export interface ProcessedFile {
   slideCount: number;
@@ -45,9 +46,22 @@ export async function processUploadedFile(
     // Convert Buffer to Uint8Array (this is the fix!)
     const pdfData = new Uint8Array(pdfBuffer);
 
+    // Find the pdfjs-dist directory reliably in Node/Next.js
+    const pdfjsDistPath = path.join(process.cwd(), 'node_modules', 'pdfjs-dist');
+
     const loadingTask = pdfjsLib.getDocument({
       data: pdfData,
-      verbosity: 0
+      verbosity: 0,
+      // @ts-ignore
+      disableWorker: true,
+      // @ts-ignore
+      stopAtErrors: true,
+      // @ts-ignore
+      nativeImageDecoderSupport: 'none',
+      // Ensure fonts render correctly on Linux
+      cMapUrl: path.join(pdfjsDistPath, 'cmaps/'),
+      cMapPacked: true,
+      standardFontDataUrl: path.join(pdfjsDistPath, 'standard_fonts/')
     });
     const pdfDocument = await loadingTask.promise;
 
@@ -59,15 +73,27 @@ export async function processUploadedFile(
       create(width: number, height: number) {
         const canvas = createCanvas(width, height);
         const context = canvas.getContext('2d');
+        context.fillStyle = 'white';
+        context.fillRect(0, 0, width, height);
         return {
           canvas,
           context,
+          width,
+          height
         };
+
       }
 
       reset(canvasAndContext: any, width: number, height: number) {
         canvasAndContext.canvas.width = width;
         canvasAndContext.canvas.height = height;
+        canvasAndContext.width = width;
+        canvasAndContext.height = height;
+
+        // RE-FILL with white after the resize clears the canvas
+        const ctx = canvasAndContext.context;
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, width, height);
       }
 
       destroy(canvasAndContext: any) {
@@ -75,6 +101,16 @@ export async function processUploadedFile(
         canvasAndContext.canvas.height = 0;
         canvasAndContext.canvas = null;
         canvasAndContext.context = null;
+      }
+
+      createImage() {
+        // @ts-ignore
+        return new (require('canvas').Image)();
+      }
+
+      createImageData(data: Uint8ClampedArray, width: number, height: number) {
+        // @ts-ignore
+        return new (require('canvas').ImageData)(data, width, height);
       }
     }
 
@@ -95,7 +131,9 @@ export async function processUploadedFile(
       await page.render({
         canvasContext: canvasAndContext.context as any,
         viewport: viewport,
+        // @ts-ignore
         canvasFactory: canvasFactory as any, // Tell PDF.js to use our factory
+        intent: 'print' // Better rendering for some PDFs
       }).promise;
 
       // Save as PNG
